@@ -1,0 +1,30 @@
+thermal:
+  technology: "GE 7HA.02 CC"
+  icap_mw: 1170
+  eford: 0.07
+  elcc: 0.79
+  overnight_cost_per_kw: 1195
+  fom_per_kw_yr: 43
+  vom_per_mwh: 3
+  heat_rate_btu_per_kwh: 6300
+  age_yr: 0
+  life_yr: 35
+  lead_time_yr: 3
+
+solar:
+  technology: "Utility-scale PV"
+  nameplate_mw: 150
+  cf: 0.27
+  elcc: 0.14
+  overnight_cost_per_kw: 1560
+  fom_per_kw_yr: 22
+  degradation_pct_per_yr: 0.5
+  age_yr: 0
+  life_financial_yr: 25
+  life_physical_yr: 35
+  lead_time_yr: 2
+
+system:
+  peak_load_mw: 153883
+  irm: 0.178
+  ref_elcc: 0.7969
